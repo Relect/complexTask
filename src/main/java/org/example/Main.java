@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        ComplexTaskExecutor taskExecutor = new ComplexTaskExecutor(5);
+        ComplexTaskExecutor taskExecutor = new ComplexTaskExecutor();
 
         Runnable testRunnable = () -> {
             System.out.println(Thread.currentThread().getName() +
